@@ -12,9 +12,9 @@ This dataset, drawn from medical records of 299 heart failure patients, provides
 
 Utilizing various machine learning and predictive modelling techniques can assist in clinician decision-making. Using a dataset  of patients experiencing left ventricular systolic dysfunction and classified as New York Heart Association (NYHA) class III or IV, we explored several ways to predict the column “DEATH_EVENT” (1 corresponding to death, and 0 corresponding to living status). This could help in a clinical context by allowing clinicians to see which patients are most at risk, as well as seeing which variables are the most important in terms of predicting death. Our **Research Questions** (RQ) are: 
 
-  1)” Can we predict death in NYHA C3 or C4 patients given various clinical and demographic variables?” 
+  1) Can we predict death in NYHA C3 or C4 patients given various clinical and demographic variables?
   
-  2) “Which variable contributes the greatest to predicting death?”.
+  2) Which variable contributes the greatest to predicting death?
 
 To address RQ1, we used a KNN model as well as a logistic regression model. To assess RQ2, we tested which variables individually lead to the highest accuracy, as well as refining our logistic regression model based on significance.
 
